@@ -1,5 +1,5 @@
-- TC : O()
-- SC : O()
+- TC : O(log(n))
+- SC : O(1)
 ```java
 public class Binarysearch{
   public static int binarysearch(int[] arr,int target){

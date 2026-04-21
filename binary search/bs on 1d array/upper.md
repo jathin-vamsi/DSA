@@ -1,8 +1,8 @@
 - TC : O(log n)
 - SC : O(1)
 ```java
-public class Lowerbound{
-  public static int lowerbound(int[] arr,int x){
+public class Upperbound{
+  public static int upperbound(int[] arr,int x){
     int left=0;
     int right=arr.length-1;
     int ans=arr.length;
@@ -20,8 +20,8 @@ public class Lowerbound{
   public static void main(String[] args){
     int[] arr={1,2,9,13,16,22,24,45};
     int x=10;
-    int res=lowerbound(arr,x);
-    System.out.print("lower bound is found at : " +res);
+    int res=upperbound(arr,x);
+    System.out.print("upper bound is found at : " +res);
   }
 
 }
